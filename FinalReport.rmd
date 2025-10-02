@@ -19,6 +19,8 @@ A new  preventative aides drug (triUmpsal) is under test in clinical trials. Con
 
 # Methods
 
+I noticed that for this write up the problem is a categorical - categorical type therefore, I will be using that helper file to guide me through the assignment.
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
