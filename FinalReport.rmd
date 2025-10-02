@@ -32,7 +32,7 @@ I noticed that for this write up the problem is a categorical - categorical type
 ### Graphical Descriptive Results
 
 ```{r}
-Females <- filter(triUmpsal,gender=="F")
+Females <- filter(triUmp,gender=="F")
 ```
 
 ```{r}
@@ -71,5 +71,7 @@ There is strong statistical evidence that the treatment (drug vs. placebo) is as
 
 
 # Discussion and Conclusion
+
+In this assignment I explored a categorical categorical type of problem meaning I had to apply a different helper file to guide me through it. By observing the different charts of Females given drug treatment and placebo treatment, I was able to conclude that the drug is not very effective supported by the tests that were ran and low p value. 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
