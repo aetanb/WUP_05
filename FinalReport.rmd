@@ -47,6 +47,14 @@ By examining the bar chart I noticed that the percentile difference between the 
 
 ### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=Females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+By looking at the numerical results I noticed that the drug and placebo results are near identical meaning that the grug is not very effective. 
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
