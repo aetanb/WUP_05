@@ -53,11 +53,19 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-By looking at the numerical results I noticed that the drug and placebo results are near identical meaning that the grug is not very effective. 
+By looking at the numerical results I noticed that the drug and placebo results are near identical meaning that the drug is not very effective. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+There is strong statistical evidence that the treatment (drug vs. placebo) is associated with a difference in infection rates. Participants receiving the drug were significantly less likely to be infected with AIDS compared to those who received the placebo.
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
